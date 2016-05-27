@@ -23,12 +23,17 @@
 <a id="welcome-to-commentary-and-questions----answer-my-questions-and-criticize-my-commentary" class="anchor" href="#welcome-to-commentary-and-questions----answer-my-questions-and-criticize-my-commentary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to Commentary and Questions -- Answer my Questions and Criticize my commentary.</h3>
 
 <p>Question 1: 
-       What is a extracted from a Boot-Disk?
-       Where is the boot-disk?
-       &gt;&gt;address of the interrupt handler we're looking for: IDTR * 4
-         <a href="http://wiki.osdev.org/Interrupt_Vector_Table#Structure">http://wiki.osdev.org/Interrupt_Vector_Table#Structure</a>
-       ??Difference between interrupt descriptor table and interrupt vector table??
-      &gt;&gt;An ISR is called directly by the CPU, and the protocol for calling an ISR differs from calling e.g. a C function. Most    importantly, an ISR has to end with the iret opcode, whereas usual C functions end with ret or retf. </p>
+       What is a extracted from a Boot-Disk?</p>
+
+<pre><code>   Where is the boot-disk? 
+   &gt;&gt;address of the interrupt handler we're looking for: IDTR * 4
+
+     http://wiki.osdev.org/Interrupt_Vector_Table#Structure
+
+   ??Difference between interrupt descriptor table and interrupt vector table??
+
+  &gt;&gt;An ISR is called directly by the CPU, and the protocol for calling an ISR differs from calling e.g. a C function. Most    importantly, an ISR has to end with the iret opcode, whereas usual C functions end with ret or retf. 
+</code></pre>
 
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
