@@ -31,17 +31,18 @@
         <h1>
 <a id="learningos" class="anchor" href="#learningos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>LearningOs</h1>
 
-<p>hat is a extracted from a Boot-Disk?</p>
+<p>What is a extracted from a Boot-Disk?
+ Where is the boot-disk? </p>
 
-<pre><code>   Where is the boot-disk? 
-   &gt;&gt;address of the interrupt handler we're looking for: IDTR * 4
-
-     http://wiki.osdev.org/Interrupt_Vector_Table#Structure
-
-   ??Difference between interrupt descriptor table and interrupt vector table??
-
-  &gt;&gt;An ISR is called directly by the CPU, and the protocol for calling an ISR differs from calling e.g. a C function. Most    importantly, an ISR has to end with the iret opcode, whereas usual C functions end with ret or retf
-</code></pre>
+<blockquote>
+<blockquote>
+<p>address of the interrupt handler we're looking for: IDTR * 4
+<a href="http://wiki.osdev.org/Interrupt_Vector_Table#Structure">http://wiki.osdev.org/Interrupt_Vector_Table#Structure</a>
+??Difference between interrupt descriptor table and interrupt vector table??
+An ISR is called directly by the CPU, and the protocol for calling an ISR differs from calling e.g. a C function. 
+Most importantly, an ISR has to end with the iret opcode, whereas usual C functions end with ret or retf</p>
+</blockquote>
+</blockquote>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/rudedev">rudedev</a></p>
