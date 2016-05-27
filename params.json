@@ -1,6 +1,6 @@
 {
   "name": "Learningos",
   "tagline": "My Notes and Questions from a Book I am auditing ",
-  "body": "# LearningOs\r\nWhat is a extracted from a Boot-Disk?\r\nWhere is the boot-disk? \r\n>>address of the interrupt handler we're looking for: IDTR * 4\r\nhttp://wiki.osdev.org/Interrupt_Vector_Table#Structure\r\n??Difference between interrupt descriptor table and interrupt vector table??\r\n\r\n>>An ISR is called directly by the CPU, and the protocol for calling an ISR differs from calling e.g. a C function. Most    importantly, an ISR has to end with the iret opcode, whereas usual C functions end with ret or retf\r\n\r\n",
+  "body": "What is  extracted from a Boot-Disk?\r\nWhere is the boot-disk? \r\n>>address of the interrupt handler we're looking for: IDTR * 4\r\nhttp://wiki.osdev.org/Interrupt_Vector_Table#Structure\r\n??Difference between interrupt descriptor table and interrupt vector table??\r\n\r\n>>An ISR is called directly by the CPU, and the protocol for calling an ISR differs from calling e.g. a C function. Most    importantly, an ISR has to end with the iret opcode, whereas usual C functions end with ret or retf\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
